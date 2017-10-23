@@ -1,0 +1,129 @@
+header{
+  display: flex;
+  background: white;
+  border-bottom: 1px solid black;
+}
+
+header .header {
+  flex-grow: 1;
+  align-items: center;
+  display: flex; /*so we can center the h3*/
+}
+
+.header h3{
+  display: inline-block;
+  color: mediumaquamarine;
+}
+header nav{
+  display: flex;
+  align-items: center;
+}
+
+.maincontainer {
+  margin: 0px;
+  text-align: center;
+  font-family: Verdana;
+  display: flex;
+  width: 1232px;
+  colomn: 3;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+  }
+
+
+
+/*the first container on the top*/
+
+
+.colomnlarge .image-mother {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630;
+  height: 300px;
+}
+
+.colomnlarge p {
+  color: white;
+  font-family: Georgia;
+  font-size: 35px;
+  align-items: center;
+  display: flex;
+}
+
+.story {
+  width: 630px;
+  height: 300;
+  display: flex;
+  flex-grow: colomn;
+}
+
+.text .image-earth {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+}
+
+.image-research p {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+}
+
+
+
+/*colomn in the middle*/
+
+.colomnmedium {
+  width: 300px;
+  display: flex;
+}
+
+.colomnmedium .image-cats {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  display: flex;
+}
+
+.colomnmedium p {
+  color: white;
+  font-family: Georgia;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+}
+
+
+/*last colomn*/
+
+.columnsmall {
+  width: 240px;
+  display: flex;
+}
+
+.newbites .bites {
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  display: block;
+  background-color: whitesmoke;
+  font-family: verdana;
+  color: dimgray;
+}
+
+footer .footer {
+  flex-grow: end;
+  align-items: center;
+  display: flex;
+  height: 325px;
+  align-items: center;
+  background-color: mediumaquamarine;
+}
